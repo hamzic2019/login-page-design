@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+
+html, body {
+  border:0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:#f39c12;/* #e74c3c; */
+  display: relative;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.wraper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /*grid-gap: 1em;*/
+  height: 98vh;
+}
+
+.box {
+}
+
+.box1 {
+  background-color:#ecf0f1;
+  text-align:center;
+}
+
+.box2 {
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  text-align:center;
+}
+
+.box1 h1 {
+  display: inline-block;
+  color:#16a085;
+  font-size: 250%;
+  margin-top: 50px;
+
+}
+
+.box1 p.prvi {
+  color:#7f8c8d;
+  margin-bottom: 20px;
+}
+
+.icons {
+  margin: 30px auto 50px auto;;
+}
+
+.icons span {
+  font-size: 150%;
+  margin: 0 25px;
+  border:1px solid lightgray;
+  border-radius: 50%;
+}
+.icons span:hover {
+  font-size: 150%;
+  margin: 0 25px;
+  border:1px solid gray;
+  border-radius: 50%;
+  background-color: #f1f2f6;
+  cursor: pointer;
+}
+
+.icons span:nth-child(2n+1){
+  padding: 15px 25px;
+}
+
+.icons span:nth-child(2n+0){
+  padding: 15px 20px;
+}
+
+.input {
+  display: inline-block;
+  width: 350px;
+  height: 45px;
+  padding: 2.5px 65px;
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+  font-size: 125%;
+  background-color: #e2e4e6;
+}
+
+.input1 {
+  background-image: url(./mail.svg);
+  background-position: 26px 15px;
+  background-size: 20px;
+  background-repeat: no-repeat; */
+  font-family: 'FontAwesome', '\f26e';
+}
+.input2 {
+  background-image: url(./lock.svg);
+  background-position: 26px 12px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+}
+
+.drugi {
+  font-size: 135%;
+  color: #2c3e50;
+  margin: 30px auto;
+}
+
+.signin {
+  width: 250px;
+  height: 55px;
+  font-size: 20px;
+  font-weight: 800;
+  color:white;
+  border:0.1px solid lightgray;
+  border-radius: 30px;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.signuph1{
+  text-align: center;
+  color: white;
+  font-size: 350%;
+  margin: 100px auto;
+}
+
+.signupprvi {
+  text-align: center;
+  color:white;
+  padding: 0px 35px 25px 35px;
+  line-height: 25px;
+}
+
+.signupbutton {
+  width: 250px;
+  height: 55px;
+  margin: 35px auto;
+  font-size: 20px;
+  font-weight: 800;
+  color:white;
+  border:3px solid white;
+  border-radius: 30px;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
